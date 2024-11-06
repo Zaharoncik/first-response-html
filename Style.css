@@ -1,0 +1,915 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.contain{
+    max-width:1440px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.background-bmw{
+    background: url(Imagen/bmw-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    max-width: 1440px;
+
+}
+
+header{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;   
+    text-shadow: 0 0 8px gray;
+
+}
+
+.loc-ser{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+#loc-sr{
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.header-hr{
+    height: 2px;
+    background-color: white;
+    width: 1220px;
+    margin: auto;
+
+}
+
+.first-car-header{
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    
+}
+
+.inf-fr-head h1{
+    color: white;
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: normal;
+}
+.inf-fr-head h1 span{
+    font-weight: bold;
+}
+
+.main-inf-head {
+    display: flex;
+    flex-direction: column;
+    line-height: 89px;
+
+}
+
+.main-inf-head h2{
+    font-weight: 600;
+    font-size: 23px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.main-inf-head h1{
+    font-size: 250px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0px 30px;
+
+}
+.main-inf-head h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 50px 0px 0px;
+}
+
+.btn-head a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    
+}
+
+.instr-btn a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 17px 25px ;
+    border-radius: 5px;
+
+
+}
+
+.btn-head{
+    background-color: #1c69d4;
+    width: 290px;
+    border-radius: 5px;
+    transition-duration: .45s;
+
+}
+
+#menu-box{
+    object-fit: cover;
+    height: 80px;
+}
+
+main section:nth-child(1){
+    display: flex;
+    flex-direction: column;
+
+}
+
+.instrumente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.instrumente h2{
+    opacity: 0.8;
+    font-size: 17px;
+    font-weight: 800;
+    padding: 15px;
+    letter-spacing: 2px;
+
+}
+.instrumente h1{
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.instrumente-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+   
+}
+.instrumente-box img{
+    height: 80px;
+
+}
+
+.instr-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.instr-box h1{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+main section:nth-child(2){
+    margin-top: 80px;
+    
+}
+
+.bmw-neue{
+    position: relative;
+    overflow: hidden;
+
+}
+
+#bmw-neue-sc{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    -webkit-user-drag: none;
+
+}
+
+.bmw-neue-info{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.bmw-neue-info h2{
+    font-size: 15px;
+
+}
+.bmw-neue-info h1{
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 1px;
+}
+.bmw-neue-info h3{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.bmw-neue-btn{
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.bmw-neue-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    padding: 10px 100px;
+    transition-duration: .25s;
+
+}
+
+.bmw-i5{
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.bmw-i5-info{
+    position: absolute;
+    top: 34%;
+    left: 100px;
+    color: #fff;
+
+    
+}
+
+.bmw-i5 img{
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+    -webkit-user-drag: none;
+
+}
+
+.bmw-i5-info h2{
+    font-size: 15px;
+
+}
+.bmw-i5-info h1{
+    font-size: 200px;
+    font-weight: 400;
+}
+.bmw-i5-info h3{
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.bmw-i5-btn{
+    margin-top: 30px;
+
+}
+.bmw-i5-btn a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c69d4;
+    padding: 10px 80px;
+    border-radius: 5px;
+    transition-duration: .25s;
+
+}
+
+.electric-bmw{
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.electric-bmw-info{
+    position: absolute;
+    top: 46%;
+    left: 100px;
+    color: #fff;
+
+}
+#bmw-ix-elec{
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+    -webkit-user-drag: none;
+
+}
+
+.electric-bmw-info h2{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.electric-bmw-info h1{
+    font-size: 80px;
+    font-weight: 400;
+
+}
+
+.electric-bmw-btn{
+    margin-top: 20px;
+
+}
+
+.electric-bmw-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #ffffffbd;
+    text-align: center;
+    padding: 11px 220px ;
+    transition-duration: .25s;
+
+}
+
+main section:nth-child(5){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    height: 440px;
+
+}
+
+.img-station-elec img{
+    object-fit: cover;
+    width: 250px;
+    height: 400px;
+
+
+}
+
+.elec-station-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+    padding-top: 50px;
+
+}
+
+.elec-station-info h2{
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.elec-station-info h1{
+    font-size: 46px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.elec-station-info h3{
+    font-weight: normal;
+    font-size: 20px;
+    width: 100%;
+}
+.elec-station-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 10px 90px;
+    
+}
+.elec-station-btn{
+    margin-top: 50px;
+   
+}
+
+footer{
+    background-color: #cecece44;
+    height: 280px;
+
+}
+.bmw-footer-info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+ 
+}
+.alegerea-cl,
+.descopera-bmw{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 90px;
+ 
+}
+.alegerea-cl a,
+.descopera-bmw a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.alegerea-cl h1,
+.descopera-bmw h1{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.facebook{
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    
+    
+}
+.facebook img{
+    object-fit: cover;
+    height: 20px;
+}
+
+.bmw-ag-ft{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+
+.bmw-ag-ft h1{
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.cookie-info-ft{
+    display: flex;
+    gap: 40px;
+}
+
+.cookie-info-ft a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.btn-head:hover,
+.bmw-i5-btn a:hover {
+    background-color: #084aa7;
+}
+
+header nav ul a:hover{
+    border-bottom: 4px solid #0a5fd4;
+    padding-bottom: 37px;
+}
+
+.instr-btn a:hover{
+    border: 3px solid black;
+}
+
+.bmw-neue-btn a:hover{
+    border: 1px solid #fff;
+
+}
+.electric-bmw-btn a:hover{
+    border: 1px solid #fff;
+}
+
+.elec-station-btn a:hover{
+    border: 1px solid black;
+}
+.bmw-footer-info1 a,
+.bmw-ag-ft a{
+    transition-duration: 0.15s;
+}
+
+.bmw-footer-info1 a:hover,
+.bmw-ag-ft a:hover{
+    color: #0a5fd4;
+}
+
+
+@media (max-width:2560px){
+    .loc-sr-mn{
+        display: none;
+    }
+}
+
+@media (max-width:1440px)  {
+    .loc-sr-mn{
+        display: none;
+    }
+    .contain{
+       min-width: 1024px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .contain{
+        min-width: 768px;
+        
+    }
+
+    .background-bmw{
+        max-width: 1024px;
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        
+        
+        
+    }
+
+    .header-hr{
+        width: 0px;
+    }
+
+    #loc-sr{
+        object-fit: cover;
+        height: 20px;
+        width: 20px;
+    }
+    header nav ul li a{
+        display: none;
+
+    }
+    
+    .inf-fr-head{
+        display: none;
+    }
+
+    .main-inf-head{
+        padding-left: 20px;
+        padding-top: 10px;
+     
+    }
+
+    .bmw-neue-btn a{
+        padding: 20px 80px;
+    }
+
+    .bmw-i5-btn a{
+        padding: 20px 40px;
+    }
+
+    .electric-bmw-btn a{
+        padding: 20px 140px;
+    }
+
+    .elec-station-info{
+        width: 400px;
+    }
+
+    }
+
+@media (max-width:768px){
+    .contain{
+        width: 425px;
+    }
+
+    .background-bmw{
+        background-size: cover;
+        background-position: center;
+        height: 530px;
+        width: 750px;
+
+    }
+
+    .main-inf-head{
+        align-items: center;
+        text-align: center;
+        padding-right:130px;
+        backdrop-filter: blur(2px);
+    }
+    .main-inf-head h2{
+        font-weight: 600;
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    .main-inf-head h1{
+        font-size: 150px;
+        color: #fff;
+        font-weight: 300;
+        padding: 0px 30px;
+    
+    }
+    .main-inf-head h3{
+        color: #fff;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0px 0px 0px;
+    }
+    
+    .instrumente-box{
+        flex-direction: column;
+        gap: 60px;
+
+    }
+    .instrumente h1{
+        width: 300px;
+        font-weight: 600;
+    }
+    #bmw-neue-sc{
+        height: 500px;
+    }
+
+    .bmw-neue-info{
+        text-align: center;
+        line-height: 0px;
+        
+    }
+
+    .bmw-i5-info{
+        left: 180px;
+        top: 20%;
+    }
+
+    .bmw-i5 img{
+        height: 500px;
+    }
+
+    .bmw-i5-info h2{
+        font-size: 20px;
+    
+    }
+    .bmw-i5-info h1{
+        font-size: 150px;
+     
+    }
+    .bmw-i5-info h3{
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .electric-bmw-info{
+        top: 30%;
+        left: 120px;
+    
+    }
+
+    #bmw-ix-elec{
+        height: 500px;
+    }
+
+    .electric-bmw-info h2{
+        font-size: 13px;
+        letter-spacing: 1px;
+    
+    }
+    
+    .electric-bmw-info h1{
+        font-size: 50px;
+        font-weight: 400;
+    
+    }
+
+    main section:nth-child(5){
+        flex-direction: column;
+        display: flex;
+        height: 100%;
+    }
+    .img-station-elec img{  
+        align-items: center;
+        width: 100%;
+    }
+
+    .elec-station-info{
+        margin-bottom: 30px;
+        padding-left: 20px;
+    }
+    .elec-station-info h3{
+        width: 600px;
+    }
+    
+    footer{
+        padding: 0px 15px;
+    }
+}   
+
+@media (max-width:425px){
+    .contain{
+        width: 375px;
+    }
+
+    .background-bmw{
+        height: 730px;
+        
+    }
+    
+    .main-inf-head{
+        margin-top: 120px;
+    }
+
+    .main-inf-head h2{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .main-inf-head h1{
+        font-size: 170px;
+        font-weight: 500;
+
+    
+    }
+    .main-inf-head h3{
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .instrumente h1{
+        width: 50;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    
+    .instr-btn a{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 23px 300px ;
+        border-radius: 5px;
+
+    }
+
+    #bmw-neue-sc{
+        height: 700px;
+    }
+
+    .bmw-neue-info{
+      left: 60px;
+      top: 330px;
+    }
+
+    .bmw-neue-info h2{
+        font-size: 25px;
+    
+    }
+    .bmw-neue-info h1{
+        font-size: 76px;
+        font-weight: 500;
+        line-height: 90px;
+        letter-spacing: 1px;
+    }
+    .bmw-neue-info h3{
+        font-weight: 500;
+        font-size: 27px;
+    }
+    
+    .bmw-neue-btn{
+        align-items: center;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    
+    .bmw-neue-btn a{
+        font-size: 28px;
+        font-weight: bold;
+        padding: 30px 200px;
+        border: 2px solid white;
+    
+    }
+
+    .bmw-i5-info{
+        left: 120px;
+        top: 24%;
+    }
+
+    .bmw-i5 img{
+        height: 700px;
+    
+    }
+    
+    .bmw-i5-info h2{
+        font-size: 25px;
+    
+    }
+    .bmw-i5-info h1{
+        font-size: 250px;
+
+    }
+    .bmw-i5-info h3{
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .bmw-i5-btn{
+        margin-top: 40px;
+    
+    }
+    .bmw-i5-btn a{
+        font-size: 27px;;
+        padding: 30px 160px;
+    
+    }
+
+    .electric-bmw-info{
+        top: 32%;
+        left: 50px;
+       
+    
+    }
+    #bmw-ix-elec{
+        height: 700px;
+    
+    }
+    
+    .electric-bmw-info h2{
+        font-size: 20px;
+    
+    }
+    
+    .electric-bmw-info h1{
+        font-size: 60px;
+        font-weight: 400;
+    
+    }
+    
+    .electric-bmw-btn{
+        margin-top: 40px;
+    
+    }
+    
+    .electric-bmw-btn a{
+        font-size: 27px;
+        border: 3px solid white;
+        padding: 31px 220px ;
+    
+    }
+
+    .elec-station-info h2{
+        font-size: 25px;
+
+    }
+    .elec-station-info h1{
+        font-size: 56px;
+        width: 500px;
+    }
+    .elec-station-info h3{
+        font-size: 30px;
+    }
+
+    .elec-station-btn a{
+        font-size: 30px;
+        font-weight: 600;
+        border: 1px solid black;
+        padding: 20px 68px;
+        width: 100%;
+        
+    }
+
+    .alegerea-cl,
+    .descopera-bmw{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 90px;
+ 
+}
+    .alegerea-cl a,
+    .descopera-bmw a{
+    font-size: 17px;
+    }
+}
